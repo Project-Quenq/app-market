@@ -118,7 +118,7 @@
         "displayName": "Bubble Trouble",
         "author": "Kresimir Cvitanovic",
         "authorUrl": "https://www.rebubbled.com/",
-        "description": "Bubble Trouble is an arcade game where you pop bouncing bubbles with a harpoon. Made in 2002 by Kresimir Cvitanovic (Kreso), you can still play the original on Reborn XP.",
+        "description": "Bubble Trouble is an arcade game where you pop bouncing bubbles with a harpoon. Made in 2002 by Kresimir Cvitanovic, you can still play the original on Reborn XP.",
         "version": "1.0",
         "category": "Games",
         "iconUrl": "https://market.quenq.com/icons/bubble-trouble.png",
@@ -127,6 +127,22 @@
         "bundleUrl": "https://market.quenq.com/bundles/bubble-trouble.zip",
         "config": {
             "coreJsFilename": "swf-wrapper.js"
+        }
+    },
+    {
+        "id": "bonzi-buddy",
+        "displayName": "Bonzi Buddy",
+        "author": "Quenq Systems",
+        "authorUrl": "https://github.com/Quenq-Systems/bonzi-buddy",
+        "description": "Bonzi Buddy is a virtual desktop assistant that was popular in the early 2000s. It features a purple gorilla that can perform various tasks, such as singing, telling jokes, managing notes, and browsing the web. This version is a safe and virus-free recreation for Reborn XP.",
+        "version": "1.0",
+        "category": "Utilities",
+        "iconUrl": "https://market.quenq.com/icons/bonzi-buddy.png",
+        "featuredImage": "https://market.quenq.com/featured/bonzi-buddy.jpg",
+        "featured": true,
+        "bundleUrl": "https://market.quenq.com/bundles/bonzi-buddy.zip",
+        "config": {
+            "coreJsFilename": "bonzi.js"
         }
     }
 ]
