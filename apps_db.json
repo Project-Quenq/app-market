@@ -144,5 +144,21 @@
         "config": {
             "coreJsFilename": "bonzi.js"
         }
+    },
+    {
+        "id": "boot-skin",
+        "displayName": "BootSkin",
+        "author": "Quenq Systems",
+        "authorUrl": "https://github.com/Quenq-Systems/boot-skin",
+        "description": "A utility for customizing the Reborn XP boot screen. Browse built-in skins, personalize them, or create your own.",
+        "version": "1.0",
+        "category": "Utilities",
+        "iconUrl": "https://market.quenq.com/icons/boot-skin.png",
+        "featuredImage": null,
+        "featured": false,
+        "bundleUrl": "https://market.quenq.com/bundles/boot-skin.zip",
+        "config": {
+            "coreJsFilename": "bootskin.js"
+        }
     }
 ]
