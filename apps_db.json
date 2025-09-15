@@ -17,22 +17,6 @@
         }
     },
     {
-        "id": "quake3",
-        "displayName": "Quake III Arena",
-        "author": "Leonardo Javier Russo",
-        "authorUrl": "https://github.com/lrusso/Quake3",
-        "description": "Play the classic Quake III Arena! Intense multiplayer action. (Doesn't work on mobile devices.)",
-        "version": "1.1",
-        "category": "Games",
-        "iconUrl": "https://market.quenq.com/icons/quake3.png",
-        "featuredImage": "https://market.quenq.com/featured/quake3.jpg",
-        "featured": true,
-        "bundleUrl": "https://market.quenq.com/bundles/quake3.zip",
-        "config": {
-            "coreJsFilename": "webview-local.js"
-        }
-    },
-    {
         "id": "flashplayer",
         "displayName": "Adobe Flash Player",
         "author": "Quenq Systems",
@@ -66,22 +50,6 @@
         }
     },
     {
-        "id": "angry-birds",
-        "displayName": "Angry Birds",
-        "author": "Rovio Entertainment",
-        "authorUrl": "https://www.rovio.com/",
-        "description": "The game featured the first five episodes of the classic game, exclusive episodes, and modified Angry Birds Seasons content: Season's Greedings (with four bonus levels), Cherry Blossom, Easter Eggs, Summer Pignic, and Moon Festival. Angry Birds Chrome was the second game to use redesigns of The Flock and the first for the Bad Piggies. It is restored and modded for Reborn XP, with the Mighty Eagle free instead of $0.99.",
-        "version": "1.0",
-        "category": "Games",
-        "iconUrl": "https://market.quenq.com/icons/angry-birds.png",
-        "featuredImage": null,
-        "featured": false,
-        "bundleUrl": "https://market.quenq.com/bundles/angry-birds.zip",
-        "config": {
-            "coreJsFilename": "webview-local.js"
-        }
-    },
-    {
         "id": "deadshot",
         "displayName": "Deadshot",
         "author": "Deadshot.io",
@@ -103,7 +71,7 @@
         "author": "Rammerhead",
         "authorUrl": "https://github.com/binary-person/rammerhead",
         "description": "Rammerhead allows you to visit any blocked website in Reborn XP without restrictions. May not support all sites, the best way is to download the Reborn XP official app on Windows/Android which can load any site in Internet Explorer.",
-        "version": "1.0",
+        "version": "1.1",
         "category": "Internet",
         "iconUrl": "https://market.quenq.com/icons/rammerhead.png",
         "featuredImage": null,
