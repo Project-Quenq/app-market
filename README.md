@@ -21,7 +21,7 @@ Welcome to the official, community-driven App Distribution Platform for [**Rebor
 We welcome and encourage developers to submit their own applications to the market. The process is managed entirely through GitHub Pull Requests.
 
 ### Step 1: Develop & Test Your App
-Before submitting, you must build and test your application using the official **[Reborn XP SDK](https://github.com/Quenq-Systems/reborn-xp-sdk)**. The SDK provides a complete workflow for developing and testing your app's full installation process, ensuring it will work correctly for end-users.
+Before submitting, you must build and test your application using the official **[Reborn XP SDK](https://github.com/Project-Quenq/reborn-xp-sdk)**. The SDK provides a complete workflow for developing and testing your app's full installation process, ensuring it will work correctly for end-users.
 
 ### Step 2: Prepare Your Assets
 You must prepare these key assets:
@@ -31,15 +31,12 @@ You must prepare these key assets:
 
 2.  **App Icon (`.png`):** This is the icon displayed in the App Market listing. It must be a **100x100** pixel PNG file.
 
-3.  **Featured Image (`.jpg` - Optional):** If you wish for your app to be featured on the market's main page, provide a **700x300** pixel JPG banner image.
-
 ### Step 3: Add Your App to This Repository
 
 1.  **Fork** this repository (`app-market`) to your own GitHub account.
 2.  In your forked repository, upload your prepared assets to the correct directories:
     *   `/bundles/`: Your `.zip` app bundle.
     *   `/icons/`: Your `100x100` `.png` icon.
-    *   `/featured/`: Your optional `700x300` `.jpg` banner.
 3.  **Edit `apps_db.json`** and add the JSON object for your application to the end of the array.
 
 #### `apps_db.json` Entry Template
@@ -55,8 +52,6 @@ All fields are mandatory unless marked optional. All URLs must be absolute paths
     "version": "1.0",                   // The initial version of your app.
     "category": "Games",                // e.g., "Games", "Multimedia", "Internet", "Utilities" etc.
     "iconUrl": "https://market.quenq.com/icons/your-app-id.png", // A 100x100 icon for your app.
-    "featuredImage": "https://market.quenq.com/featured/your-app-id.jpg", // Optional, `null` if not used.
-    "featured": false,                  // Should be `false`. The maintainers will decide if an app is featured.
     "bundleUrl": "https://market.quenq.com/bundles/your-app-id.zip",
     "fileAssociations": [],             // Optional: file extensions your app can open. e.g., ["csv", "pdf"]
     "config": {
@@ -66,7 +61,7 @@ All fields are mandatory unless marked optional. All URLs must be absolute paths
 ```
 
 ### Step 4: Submit a Pull Request
-Once your assets are uploaded and `apps_db.json` is updated, submit a **Pull Request** from your forked repository to `Quenq-Systems/app-market`. We will review it for approval.
+Once your assets are uploaded and `apps_db.json` is updated, submit a **Pull Request** from your forked repository to `Project-Quenq/app-market`. We will review it for approval.
 
 ## How to Publish an Update
 
@@ -94,4 +89,4 @@ The structure and code of this repository are provided under the **MIT License**
 ### Application Licenses
 **Each application bundle is the property of its respective developer (as listed in the `author` field) and is governed by its own license.** The MIT license of this repository does not apply to the contents of the app bundles themselves. Most submissions are compiled/minified web app builds, not raw source code. It is the developer's responsibility to include any end-user license agreements within their application if they choose.
 
-By submitting an application to this repository, you (the developer) grant Quenq Systems a non-exclusive, royalty-free license to distribute your application bundle via the Reborn XP App Market.
+By submitting an application to this repository, you (the developer) grant Project Quenq a non-exclusive, royalty-free license to distribute your application bundle via the Reborn XP App Market.

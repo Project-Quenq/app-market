@@ -2,14 +2,12 @@
     {
         "id": "notepad-plus-plus",
         "displayName": "Notepad++",
-        "author": "Quenq Systems",
-        "authorUrl": "https://github.com/Quenq-Systems",
+        "author": "Quenq",
+        "authorUrl": "https://github.com/Project-Quenq",
         "description": "A powerful, standalone code editor with syntax highlighting. The perfect tool for developing new Reborn XP apps directly within the OS.",
-        "version": "1.0",
+        "version": "1.1",
         "category": "Utilities",
         "iconUrl": "https://market.quenq.com/icons/notepad-plus-plus.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/notepad-plus-plus.zip",
         "fileAssociations": ["js", "json", "css", "html"],
         "config": {
@@ -19,14 +17,12 @@
     {
         "id": "flashplayer",
         "displayName": "Adobe Flash Player",
-        "author": "Quenq Systems",
-        "authorUrl": "https://github.com/Quenq-Systems/reborn-xp",
+        "author": "Quenq",
+        "authorUrl": "https://github.com/Project-Quenq/reborn-xp",
         "description": "Plays SWF animations and games in Reborn XP using the Ruffle emulator.",
-        "version": "1.1",
+        "version": "1.2",
         "category": "Multimedia",
         "iconUrl": "https://market.quenq.com/icons/flashplayer.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/flashplayer.zip",
         "fileAssociations": ["swf"],
         "config": {
@@ -42,8 +38,6 @@
         "version": "1.8",
         "category": "Games",
         "iconUrl": "https://market.quenq.com/icons/minecraft.png",
-        "featuredImage": "https://market.quenq.com/featured/minecraft.jpg",
-        "featured": true,
         "bundleUrl": "https://market.quenq.com/bundles/minecraft.zip",
         "config": {
             "coreJsFilename": "webview-local.js"
@@ -58,8 +52,6 @@
         "version": "1.0",
         "category": "Games",
         "iconUrl": "https://market.quenq.com/icons/deadshot.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/deadshot.zip",
         "config": {
             "coreJsFilename": "webview-external.js"
@@ -74,8 +66,6 @@
         "version": "1.1",
         "category": "Internet",
         "iconUrl": "https://market.quenq.com/icons/rammerhead.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/rammerhead.zip",
         "config": {
             "coreJsFilename": "webview-external.js"
@@ -87,11 +77,9 @@
         "author": "Kresimir Cvitanovic",
         "authorUrl": "https://www.rebubbled.com/",
         "description": "Bubble Trouble is an arcade game where you pop bouncing bubbles with a harpoon. Made in 2002 by Kresimir Cvitanovic, you can still play the original on Reborn XP.",
-        "version": "1.0",
+        "version": "1.1",
         "category": "Games",
         "iconUrl": "https://market.quenq.com/icons/bubble-trouble.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/bubble-trouble.zip",
         "config": {
             "coreJsFilename": "swf-wrapper.js"
@@ -100,14 +88,12 @@
     {
         "id": "bonzi-buddy",
         "displayName": "Bonzi Buddy",
-        "author": "Quenq Systems",
-        "authorUrl": "https://github.com/Quenq-Systems/bonzi-buddy",
+        "author": "Quenq",
+        "authorUrl": "https://github.com/Project-Quenq/bonzi-buddy",
         "description": "Bonzi Buddy is a virtual desktop assistant that was popular in the early 2000s. It features a purple gorilla that can perform various tasks, such as singing, telling jokes, managing notes, and browsing the web. This version is a safe and virus-free recreation for Reborn XP.",
-        "version": "1.0",
+        "version": "1.1",
         "category": "Utilities",
         "iconUrl": "https://market.quenq.com/icons/bonzi-buddy.png",
-        "featuredImage": "https://market.quenq.com/featured/bonzi-buddy.jpg",
-        "featured": true,
         "bundleUrl": "https://market.quenq.com/bundles/bonzi-buddy.zip",
         "config": {
             "coreJsFilename": "bonzi.js"
@@ -116,14 +102,12 @@
     {
         "id": "boot-skin",
         "displayName": "BootSkin",
-        "author": "Quenq Systems",
-        "authorUrl": "https://github.com/Quenq-Systems/boot-skin",
+        "author": "Quenq",
+        "authorUrl": "https://github.com/Project-Quenq/boot-skin",
         "description": "A utility for customizing the Reborn XP boot screen. Browse built-in skins, personalize them, or create your own.",
-        "version": "1.0",
+        "version": "1.1",
         "category": "Utilities",
         "iconUrl": "https://market.quenq.com/icons/boot-skin.png",
-        "featuredImage": null,
-        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/boot-skin.zip",
         "config": {
             "coreJsFilename": "bootskin.js"
@@ -135,28 +119,38 @@
         "author": "Rovio Entertainment",
         "authorUrl": "https://www.rovio.com/",
         "description": "The game featured the first five episodes of the classic game, exclusive episodes, and modified Angry Birds Seasons content: Season's Greedings (with four bonus levels), Cherry Blossom, Easter Eggs, Summer Pignic, and Moon Festival. Angry Birds Chrome was the second game to use redesigns of The Flock and the first for the Bad Piggies. It is restored and modded for Reborn XP, with the Mighty Eagle free instead of $0.99.",
-        "version": "1.0",
-        "category": "Games",
-        "iconUrl": "https://market.quenq.com/icons/angry-birds.png",
-        "featuredImage": null,
-        "featured": false,
-        "bundleUrl": "https://market.quenq.com/bundles/angry-birds.zip",
-        "config": {
-            "coreJsFilename": "webview-local.js"
-        }
-    },    
-    {
-        "id": "quake3",
-        "displayName": "Quake III Arena",
-        "author": "id Software",
-        "authorUrl": "https://www.idsoftware.com/",
-        "description": "Play the classic Quake III Arena! Intense multiplayer action. (Doesn't work on mobile devices.)",
         "version": "1.1",
         "category": "Games",
-        "iconUrl": "https://market.quenq.com/icons/quake3.png",
-        "featuredImage": "https://market.quenq.com/featured/quake3.jpg",
-        "featured": true,
-        "bundleUrl": "https://market.quenq.com/bundles/quake3.zip",
+        "iconUrl": "https://market.quenq.com/icons/angry-birds.png",
+        "bundleUrl": "https://market.quenq.com/bundles/angry-birds.zip",
+        "config": {
+            "coreJsFilename": "webview-external.js"
+        }
+    },
+    {
+        "id": "vice-city",
+        "displayName": "GTA Vice City",
+        "author": "Rockstar Games",
+        "authorUrl": "https://www.rockstargames.com/",
+        "description": "Experience the vibrant and dangerous world of Vice City in this classic open-world action-adventure game. Explore the city, complete missions, and cause mayhem in style!",
+        "version": "1.0",
+        "category": "Games",
+        "iconUrl": "https://market.quenq.com/icons/vice-city.png",
+        "bundleUrl": "https://market.quenq.com/bundles/vice-city.zip",
+        "config": {
+            "coreJsFilename": "webview-external.js"
+        }
+    },
+    {
+        "id": "chatango",
+        "displayName": "Chatango",
+        "author": "Chatango",
+        "authorUrl": "https://www.chatango.com/",
+        "description": "Chatango is a web-based chat platform that allows users to create and join chat rooms on various topics. It is the official chat room for Reborn XP, providing a seamless experience for chatting with other users in real-time.",
+        "version": "1.0",
+        "category": "Internet",
+        "iconUrl": "https://market.quenq.com/icons/chatango.png",
+        "bundleUrl": "https://market.quenq.com/bundles/chatango.zip",
         "config": {
             "coreJsFilename": "webview-local.js"
         }
